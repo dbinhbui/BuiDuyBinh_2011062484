@@ -7,13 +7,13 @@ namespace BuiDuyBinh_2011062484.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class PopulateCategoryTable : IMigrationMetadata
+    public sealed partial class AddFollowingsTable : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(PopulateCategoryTable));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(AddFollowingsTable));
         
         string IMigrationMetadata.Id
         {
-            get { return "202303150328044_PopulateCategoryTable"; }
+            get { return "202303281845208_AddFollowingsTable"; }
         }
         
         string IMigrationMetadata.Source

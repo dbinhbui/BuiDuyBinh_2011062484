@@ -7,13 +7,13 @@ namespace BuiDuyBinh_2011062484.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class AddNameColumnToApplicationUser : IMigrationMetadata
+    public sealed partial class SuaCSDL : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(AddNameColumnToApplicationUser));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(SuaCSDL));
         
         string IMigrationMetadata.Id
         {
-            get { return "202303162302401_AddNameColumnToApplicationUser"; }
+            get { return "202303220422171_SuaCSDL"; }
         }
         
         string IMigrationMetadata.Source
