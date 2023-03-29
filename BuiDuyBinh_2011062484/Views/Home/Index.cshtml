@@ -42,9 +42,9 @@
 {
     <script>
         $(document).ready(function () {
-            $(".js-toggle-attendances").click(function (e) {
+            $(".js-toggle-attendance").click(function (e) {
                 var button = $(e.target);
-                $.post("/api/attendaces", { courseId: button.attr("data-course-id") })
+                $.post("/api/attendances", { courseId: button.attr("data-course-id") })
                     .done(function () {
                         button
                             .removeClass("btn-default")
@@ -55,7 +55,7 @@
                         alert("something failed!");
                     });
             });
-            $(".js-toggle-follow").click(fuction(e) {
+            $(".js-toggle-follow").click(function(e) {
                 var button = $(e.target);
                 $.post("/api/followings", { followeeId: button.attr("data-user-id") })
                     .done(function () {
